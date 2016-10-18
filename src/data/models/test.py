@@ -26,4 +26,4 @@ class LogUser1(CRUDModel):
     @staticmethod
     def find_by_prijmeni(prijmeni):
         return db.session.query(LogUser1).filter_by(prijmeni = prijmeni).all()
-
+#ahoj
